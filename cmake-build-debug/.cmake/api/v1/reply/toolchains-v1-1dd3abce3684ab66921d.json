@@ -1,0 +1,56 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/homebrew/Cellar/gcc@12/12.4.0/lib/gcc/12/gcc/aarch64-apple-darwin23/12/include",
+						"/opt/homebrew/Cellar/gcc@12/12.4.0/lib/gcc/12/gcc/aarch64-apple-darwin23/12/include-fixed",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks"
+					],
+					"linkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
+						"/opt/homebrew/Cellar/gcc@12/12.4.0/lib/gcc/12/gcc/aarch64-apple-darwin23/12",
+						"/opt/homebrew/Cellar/gcc@12/12.4.0/lib/gcc/12/gcc",
+						"/opt/homebrew/Cellar/gcc@12/12.4.0/lib/gcc/12",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib",
+						"/usr/local/lib"
+					],
+					"linkFrameworkDirectories" : 
+					[
+						"/Library/Frameworks",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks"
+					],
+					"linkLibraries" : 
+					[
+						"emutls_w",
+						"heapt_w",
+						"gcc"
+					]
+				},
+				"path" : "/opt/homebrew/opt/gcc@12/bin/gcc-12",
+				"version" : "12.4.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

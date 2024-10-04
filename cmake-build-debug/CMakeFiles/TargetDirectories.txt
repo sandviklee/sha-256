@@ -1,0 +1,3 @@
+/Users/sandviklee/sha256/cmake-build-debug/CMakeFiles/sha256.dir
+/Users/sandviklee/sha256/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sandviklee/sha256/cmake-build-debug/CMakeFiles/rebuild_cache.dir
