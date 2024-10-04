@@ -1,15 +1,13 @@
 <h1 align="center" style="font-weight: bold; font-family: Lato; ">SHA-256</h1>
 
 <p align="center">
- <a href="#started">Getting Started</a> •
+ <a href="#started">Getting Started</a> • <a href="#comments">Comments</a>
 </p>
 
 <p align="center">
     <b>SHA-256 Hashing Algorithm Implemented in C</b>
-    <br/>
-    <p>SHA-256 is a cryptographic hash function that takes an input and produces a 256-bit (32-byte) hash value. It's widely used in many security applications and protocols.</p>
-    <br/>
-    [Documentation](https://csrc.nist.gov/files/pubs/fips/180-2/upd1/final/docs/fips180-2withchangenotice.pdf)
+    <p align="center">SHA-256 is a cryptographic hash function that takes an input and produces a 256-bit (32-byte) hash value. It's widely used in many security applications and protocols.</p>
+    <p align="center"><a  href="https://csrc.nist.gov/files/pubs/fips/180-2/upd1/final/docs/fips180-2withchangenotice.pdf">Documentation</a></p>
 </p>
 
 <h2 id="pre">Prerequisites</h2>
@@ -43,7 +41,7 @@ GCC:
 gcc ./src/main.c -o build/sha256; ./build/sha256
 ```
 
-<h2>Comments</h2>
+<h2 id="comments">🗯️ Comments</h2>
 This project was made for educational purposes only. It is not recommended to use this code in production.
 
 There is still some work to be done, such as:
