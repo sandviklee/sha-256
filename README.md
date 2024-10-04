@@ -12,6 +12,7 @@
 
 <h2 id="pre">Prerequisites</h2>
 You need cmake, gcc or clang to compile the project.
+ <br/>
  <a href="https://gcc.gnu.org/install/download.html">gcc</a><br/>
  <a href="https://cmake.org/cmake/help/latest/manual/cmake.1.html">cmake</a><br/>
 
