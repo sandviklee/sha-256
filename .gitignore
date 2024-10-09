@@ -42,3 +42,7 @@
 # Project logs files
 /log/*
 !/log/.gitkeep
+
+# Project Build files
+/build/*
+/cmake-build-debug/*
