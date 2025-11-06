@@ -8,6 +8,11 @@
  * @brief SHA-256 uses six logical functions, where each function operates on
  * 32-bit words. The result of each function is a new 32 bit word.
  */
+
+
+/**
+ * MACROS
+ */
 #define ROTR(X, N)                                                             \
   (((X) >> (N)) |                                                              \
    ((X) << (32 - (N)))) /* Circular shift of X by N positions to the right */
@@ -28,10 +33,6 @@
 #define SIG1(X)                                                                \
   (ROTR(X, 17) ^ ROTR(X, 19) ^ (SHR(X, 10))) /* Sigma ^ 256 _ 1                \
                                               */
-
-/**
- * MACROS
- */
 #define CEIL(X, B)                                                             \
   ((X + B - 1) / B) /* Calculates Ceiling of X divided by bits B */
 
